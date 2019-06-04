@@ -1,0 +1,4 @@
+1. unable-to-load-script-from-assets-index-android-bundle:(?y ra khi kh?i t?o 1 project m?i c?a phiên b?n RN m?i)
+   1.1 t?o 1 foder 'assets' trong app/src/main
+   1.2. ch?y dòng l?nh react-native bundle --platform android --dev false --entry-file index.js 
+--bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
