@@ -1,0 +1,2 @@
+ 1. marginTop: Platform.OS=== 'ios'? 34:0 //neu Ios thi magintop laf 34, android laf o
+2.   let screenwidth = Dimensions.get('window').width;
