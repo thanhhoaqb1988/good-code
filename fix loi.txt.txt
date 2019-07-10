@@ -1,4 +1,14 @@
 1. unable-to-load-script-from-assets-index-android-bundle:(?y ra khi kh?i t?o 1 project m?i c?a phiên b?n RN m?i)
    1.1 t?o 1 foder 'assets' trong app/src/main
-   1.2. ch?y dòng l?nh react-native bundle --platform android --dev false --entry-file index.js 
---bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
+   1.2. ch?y dòng l?nhreact-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
+
+1.	S?a  l?i xampp Erorr 404:
+a.	Ð?i port 80 thành 8888 và 443 thành 4433
+b.	Vào Task manage entask  th?ng mysql.
+
+
+
+React native
+Các ph?n m?m c?n thi?t d? cài react native cho hdh android:
+Android stuidio, gennymotin, sdk, jdk, node.js, sublinetext, git, python, xamp.
+1.	sau khi run projiect mà có báo l?i “could not connet development server” thì ch?y l?nh “react-native start” sau dó ch?y l?i l?nh “react-native run -android”.
